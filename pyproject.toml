@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "amazonscraper"
+version = "0.1.0"
+description = ""
+authors = ["Krish Shah <shahkrish2016@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.20.0"
+bs4 = "^0.0.2"
+lxml = "^5.2.1"
+argparse = "^1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
